@@ -116,32 +116,6 @@ Visit `http://localhost:5173` in your browser.
 - **Email**: `admin@auditx.com`
 - **Password**: `123456`
 
-> ⚠️ **Change the default password immediately in production!**
-
-## 📦 Deployment
-
-### Deploy to Vercel
-
-1. **Push to GitHub**:
-   ```bash
-   git add .
-   git commit -m "Ready for deployment"
-   git push origin main
-   ```
-
-2. **Import to Vercel**:
-   - Go to [Vercel Dashboard](https://vercel.com/dashboard)
-   - Import your GitHub repository
-   - Vercel auto-detects configuration from `vercel.json`
-
-3. **Configure Environment Variables**:
-   - Add all server and client environment variables in Vercel project settings
-   - See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed instructions
-
-4. **Deploy**:
-   - Vercel automatically deploys on push to main branch
-
-For detailed deployment instructions, see [DEPLOYMENT.md](./DEPLOYMENT.md).
 
 ## 📁 Project Structure
 
