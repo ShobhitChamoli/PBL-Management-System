@@ -9,8 +9,9 @@
             "src": "client/package.json",
             "use": "@vercel/static-build",
             "config": {
-                "distDir": "client/dist",
-                "installCommand": "cd client && npm install --legacy-peer-deps --force"
+                "outputDirectory": "client/dist",
+                "installCommand": "cd client && npm install --legacy-peer-deps --force",
+                "buildCommand": "cd client && npm run build"
             }
         }
     ],
